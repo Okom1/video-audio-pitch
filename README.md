@@ -25,4 +25,4 @@ Open the `01 Download Media.bat` file and:
 Drag the media file on the `02 Change Pitch.bat` file and:
 1. Enter the semitone change multiplier
 
-The output file will have just the pitch of the audio adjusted, leaving the video untouched. The output file will be placed in the directory where the input file was in.
+The output file will have just the pitch of the audio adjusted, leaving the video stream untouched if present. The output file will be placed in the directory where the input file was in. Note, that lowering the pitch inherently cuts off higher frequencies of the audio, making it sound lower quality.
